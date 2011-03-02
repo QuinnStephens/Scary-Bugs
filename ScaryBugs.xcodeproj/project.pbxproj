@@ -17,6 +17,7 @@
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
 		7C3598F1131EDE3700A040F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3598F0131EDE3700A040F8 /* Default.png */; };
 		7C3598FE131EDFA000A040F8 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3598FD131EDFA000A040F8 /* DSActivityView.m */; };
+		7C35992A131EEC2900A040F8 /* ScaryBugDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C359929131EEC2900A040F8 /* ScaryBugDatabase.m */; };
 		7C8CEED4131B36F0006E9EB8 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CEED3131B36F0006E9EB8 /* ScaryBugData.m */; };
 		7C8CEED7131B3838006E9EB8 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CEED6131B3838006E9EB8 /* ScaryBugDoc.m */; };
 		7C8CEF0D131B3C7E006E9EB8 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C8CEF05131B3C7E006E9EB8 /* centipede.jpg */; };
@@ -53,6 +54,8 @@
 		7C3598F0131EDE3700A040F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7C3598FC131EDFA000A040F8 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
 		7C3598FD131EDFA000A040F8 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
+		7C359928131EEC2900A040F8 /* ScaryBugDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDatabase.h; sourceTree = "<group>"; };
+		7C359929131EEC2900A040F8 /* ScaryBugDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDatabase.m; sourceTree = "<group>"; };
 		7C8CEED2131B36F0006E9EB8 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
 		7C8CEED3131B36F0006E9EB8 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
 		7C8CEED5131B3838006E9EB8 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				7C8CEED3131B36F0006E9EB8 /* ScaryBugData.m */,
 				7C8CEED5131B3838006E9EB8 /* ScaryBugDoc.h */,
 				7C8CEED6131B3838006E9EB8 /* ScaryBugDoc.m */,
+				7C359928131EEC2900A040F8 /* ScaryBugDatabase.h */,
+				7C359929131EEC2900A040F8 /* ScaryBugDatabase.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				7C8CEF2A131B4273006E9EB8 /* UIImageExtras.m in Sources */,
 				7C8CEF30131B42F9006E9EB8 /* EditBugViewController.m in Sources */,
 				7C3598FE131EDFA000A040F8 /* DSActivityView.m in Sources */,
+				7C35992A131EEC2900A040F8 /* ScaryBugDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

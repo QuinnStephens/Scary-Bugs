@@ -9,6 +9,7 @@
 #import "ScaryBugsAppDelegate.h"
 #import "RootViewController.h"
 #import "ScaryBugDoc.h"
+#import "ScaryBugDatabase.h"
 
 
 @implementation ScaryBugsAppDelegate
@@ -23,6 +24,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
+	/*
 	ScaryBugDoc *bug1 = [[[ScaryBugDoc alloc] initWithTitle:@"Potato Bug" rating:4 thumbImage:[UIImage imageNamed:@"potatoBugThumb.jpg"] fullImage:[UIImage imageNamed:@"potatoBug.jpg"]] autorelease];
 	ScaryBugDoc *bug2 = [[[ScaryBugDoc alloc] initWithTitle:@"House Centipede" rating:4 thumbImage:[UIImage imageNamed:@"centipedeThumb.jpg"] fullImage:[UIImage imageNamed:@"centipede.jpg"]] autorelease];
 	ScaryBugDoc *bug3 = [[[ScaryBugDoc alloc] initWithTitle:@"Wolf Spider" rating:4 thumbImage:[UIImage imageNamed:@"wolfSpiderThumb.jpg"] fullImage:[UIImage imageNamed:@"wolfSpider.jpg"]] autorelease];
@@ -30,7 +32,12 @@
 	
     NSMutableArray *bugs = [NSMutableArray arrayWithObjects:bug1,bug2,bug3,bug4,nil];
 	RootViewController *rootController = (RootViewController*)[navigationController.viewControllers objectAtIndex:0];
-    rootController.bugs = bugs;
+    rootController.bugs = bugs;*/
+	
+	NSMutableArray *loadedBugs = [ScaryBugDatabase loadScaryBugDocs];
+	RootViewController *rootController = (RootViewController*)[navigationController.viewControllers objectAtIndex:0];
+	rootController.bugs = loadedBugs;
+	
 	// Add the navigation controller's view to the window and display.
     [self.window addSubview:navigationController.view];
     [self.window makeKeyAndVisible];

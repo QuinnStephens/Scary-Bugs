@@ -110,6 +110,8 @@
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source.
+		ScaryBugDoc *doc = [_bugs objectAtIndex:indexPath.row];
+		[doc deleteDoc];
 		[_bugs removeObjectAtIndex:indexPath.row];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }   

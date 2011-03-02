@@ -1,7 +1,7 @@
 TScaryBugs
 v7
 r0
-t320789352.549339
+t320797483.594152
 cCheck dependencies
 cProcessInfoPlistFile /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/Info.plist ScaryBugs-Info.plist
 cCompileXIB /Users/quinnstephens/Dropbox/Games/ScaryBugs/MainWindow.xib
@@ -19,6 +19,7 @@ cCpResource build/Debug-iphonesimulator/ScaryBugs.app/shockedface2_empty.png sho
 cCpResource build/Debug-iphonesimulator/ScaryBugs.app/shockedface2_full.png shockedface2_full.png
 cCpResource build/Debug-iphonesimulator/ScaryBugs.app/shockedface2_half.png shockedface2_half.png
 cCompileXIB /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.xib
+cCpResource build/Debug-iphonesimulator/ScaryBugs.app/Default.png Default.png
 cProcessPCH /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch.gch ScaryBugs_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/main.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugsAppDelegate.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -28,6 +29,8 @@ cCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-no
 cCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/RateView.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/RateView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/UIImageExtras.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/UIImageExtras.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/EditBugViewController.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/DSActivityView.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/DSActivityView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDatabase.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs normal i386
 cGenerateDSYMFile /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app.dSYM /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs
 cTouch /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app
@@ -52,6 +55,11 @@ c000000004CC1225F0000000000001466
 t1287725663
 s5222
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004CC1281F0000000000000AA1
 t1287727135
@@ -68,20 +76,21 @@ t1286863368
 s6877
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.h
-c000000004D6E6C2C000000000000036C
-t1299082284
-s876
+c000000004D6EAB7000000000000003F8
+t1299098480
+s1016
 i<UIKit/UIKit.h>
 i"RateView.h"
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.m
-c000000004D6E705E0000000000000EDA
-t1299083358
-s3802
+c000000004D6EC2C40000000000001285
+t1299104452
+s4741
 i"EditBugViewController.h"
 i"ScaryBugData.h"
 i"ScaryBugDoc.h"
 i"UIImageExtras.h"
+i"DSActivityView.h"
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.xib
 c000000004D6E701800000000000070D0
@@ -89,33 +98,52 @@ t1299083288
 s28880
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/RootViewController.h
-c000000004D6E6E9D00000000000001D3
-t1299082909
-s467
+c000000004D6EAB8A00000000000001BF
+t1299098506
+s447
 i<UIKit/UIKit.h>
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/RootViewController.m
-c000000004D6EA431000000000000178C
-t1299096625
-s6028
+c000000004D6EBAFD00000000000017D9
+t1299102461
+s6105
 i"RootViewController.h"
 i"ScaryBugData.h"
 i"ScaryBugDoc.h"
 i"EditBugViewController.h"
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.h
-c000000004D6AFCC600000000000001DB
-t1298857158
-s475
+c000000004D6EAB7E00000000000001C5
+t1299098494
+s453
 i<UIKit/UIKit.h>
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.m
-c000000004D6B068B0000000000000EC1
-t1298859659
-s3777
+c000000004D6EBA810000000000000FC1
+t1299102337
+s4033
 i"ScaryBugsAppDelegate.h"
 i"RootViewController.h"
 i"ScaryBugDoc.h"
+i"ScaryBugDatabase.h"
+
+N/Users/quinnstephens/Dropbox/Games/ScaryBugs/DSActivityView.h
+c000000004C72E4D600000000000017E3
+t1282598102
+s6115
+i<UIKit/UIKit.h>
+
+N/Users/quinnstephens/Dropbox/Games/ScaryBugs/DSActivityView.m
+c000000004C72E4D60000000000005CF2
+t1282598102
+s23794
+i"DSActivityView.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/quinnstephens/Dropbox/Games/ScaryBugs/Default.png
+c000000004D6EA6620000000000003DE2
+t1299097186
+s15842
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/MainWindow.xib
 c000000004D6B16E60000000000006144
@@ -140,29 +168,43 @@ t1298857158
 s17492
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugData.h
-c000000004D6B0264000000000000018E
-t1298858596
-s398
+c000000004D6EAECE0000000000000199
+t1299099342
+s409
 i<Foundation/Foundation.h>
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugData.m
-c000000004D6B025C00000000000001E8
-t1298858588
-s488
+c000000004D6EAFC60000000000000399
+t1299099590
+s921
 i"ScaryBugData.h"
 
+N/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.h
+c000000004D6EB61E000000000000012F
+t1299101214
+s303
+i<Foundation/Foundation.h>
+
+N/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m
+c000000004D6EC3FA0000000000000A13
+t1299104762
+s2579
+i"ScaryBugDatabase.h"
+i"ScaryBugDoc.h"
+
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.h
-c000000004D6B03180000000000000245
-t1298858776
-s581
+c000000004D6EC0BA00000000000002E5
+t1299103930
+s741
 i<Foundation/Foundation.h>
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m
-c000000004D6B0304000000000000031D
-t1298858756
-s797
+c000000004D6EC2240000000000000EAD
+t1299104292
+s3757
 i"ScaryBugDoc.h"
 i"ScaryBugData.h"
+i"ScaryBugDatabase.h"
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugs_Prefix.pch
 c000000004D6AFCC60000000000000144
@@ -185,27 +227,31 @@ s2021
 i"UIImageExtras.h"
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app
-t1299096552
-s680
+t1299104458
+s714
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app.dSYM
-t1299096552
+t1299104458
 s102
+
+N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/Default.png
+t1299102673
+s15842
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/EditBugViewController.nib
 t1299083292
 s2527
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/Info.plist
-t1298857186
-s599
+t1299102673
+s636
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/MainWindow.nib
 t1298863859
 s1511
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/PkgInfo
-t1298857186
+t1299102673
 s8
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/RootViewController.nib
@@ -213,8 +259,8 @@ t1298857187
 s979
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs
-t1299096552
-s58452
+t1299104458
+s93496
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/centipede.jpg
 t1298859374
@@ -264,34 +310,42 @@ N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryB
 t1298859374
 s4827
 
+N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/DSActivityView.o
+t1299102674
+s90992
+
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/EditBugViewController.o
-t1299096053
-s61764
+t1299104458
+s75024
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/RateView.o
 t1298863168
 s62452
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/RootViewController.o
-t1299096552
-s56508
+t1299104458
+s57252
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugData.o
-t1298858603
-s9672
+t1299102673
+s11932
+
+N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDatabase.o
+t1299104458
+s14992
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDoc.o
-t1298858993
-s12972
+t1299104458
+s24832
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugs.LinkFileList
-c000000004D6B143F000000000000046B
-t1298863167
-s1131
+c000000004D6EBBD10000000000000589
+t1299102673
+s1417
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugsAppDelegate.o
-t1299082950
-s57136
+t1299104458
+s54488
 
 N/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/UIImageExtras.o
 t1298863168
@@ -378,11 +432,24 @@ s896
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies320789352#320789352#0(0"0(0#1#0"8612534528#0"0#
+lSLF07#2@18"Check dependencies320797483#320797483#0(0"0(0#1#0"8627799520#0"0#
+
+CCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/DSActivityView.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/DSActivityView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320795474.132341
+e320795474.455846
+r1
+xCompileC
+xbuild/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/DSActivityView.o
+x/Users/quinnstephens/Dropbox/Games/ScaryBugs/DSActivityView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/DSActivityView.m320795474#320795474#0(0"0(0#0#61"/Users/quinnstephens/Dropbox/Games/ScaryBugs/DSActivityView.m8616582720#2040"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/DSActivityView.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/DSActivityView.o0#
 
 CCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/EditBugViewController.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320788852.940191
-e320788853.236016
+s320797258.470227
+e320797258.720944
 r1
 xCompileC
 xbuild/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/EditBugViewController.o
@@ -391,7 +458,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.m320788852#320788853#0(0"0(0#0#76"/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.m8614293152#2062"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/EditBugViewController.o0#
+lSLF07#2@84"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.m320797258#320797258#0(0"0(0#0#76"/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.m8623784704#2062"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/EditBugViewController.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/EditBugViewController.o0#
 
 CCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/RateView.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/RateView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s320555968.544186
@@ -407,8 +474,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/RateView.m320555968#320555968#0(0"0(0#0#55"/Users/quinnstephens/Dropbox/Games/ScaryBugs/RateView.m8613121024#2028"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/RateView.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/RateView.o0#
 
 CCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/RootViewController.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320789352.379365
-e320789352.472892
+s320797258.220053
+e320797258.468765
 r1
 xCompileC
 xbuild/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/RootViewController.o
@@ -417,11 +484,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/RootViewController.m320789352#320789352#0(0"0(0#0#73"/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/RootViewController.m8610621568#2056"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/RootViewController.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/RootViewController.o0#
+lSLF07#2@81"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/RootViewController.m320797258#320797258#0(0"0(0#0#73"/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/RootViewController.m8612976800#2056"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/RootViewController.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/RootViewController.o0#
 
 CCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugData.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320551403.393690
-e320551403.508267
+s320795473.868197
+e320795474.027419
 r1
 xCompileC
 xbuild/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugData.o
@@ -430,11 +497,31 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugData.m320551403#320551403#0(0"0(0#0#59"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugData.m8613578624#2036"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugData.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugData.o0#
+lSLF07#2@67"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugData.m320795473#320795474#0(0"0(0#0#59"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugData.m8617551136#2036"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugData.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugData.o0#
+
+CCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDatabase.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320797258.611406
+e320797258.699556
+r1
+xCompileC
+xbuild/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDatabase.o
+x/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m: In function '+[ScaryBugDatabase loadScaryBugDocs]':
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:43: warning: no '-initWithDocPath:' method found
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:43: warning: (Messages without a matching method signature
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:43: warning: will be assumed to return 'id' and accept
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:43: warning: '...' as arguments.)
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m: In function '+[ScaryBugDatabase nextScaryBugDocPath]':
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:66: warning: 'NSString' may not respond to '-stringbByDeletingPathExtension'
+lSLF07#2@71"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m320797258#320797258#0(831"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m: In function '+[ScaryBugDatabase loadScaryBugDocs]':/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:43: warning: no '-initWithDocPath:' method found/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:43: warning: (Messages without a matching method signature/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:43: warning: will be assumed to return 'id' and accept/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:43: warning: '...' as arguments.)/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m: In function '+[ScaryBugDatabase nextScaryBugDocPath]':/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m:66: warning: 'NSString' may not respond to '-stringbByDeletingPathExtension'3(22@35"No '-initWithDocPath:' method found320797258#117#113#0(6@63"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m320795818#43#0#43#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)320797258#230#123#0(6@63"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m320795818#43#0#43#0#0"0(22@63"'NSString' may not respond to '-stringbByDeletingPathExtension'320797258#690#141#0(6@63"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m320795818#66#0#66#0#26"'*' may not respond to '*'0(0#0#63"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m8625170784#2044"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDatabase.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDatabase.o0#
 
 CCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDoc.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320551793.435194
-e320551793.531118
+s320797258.408592
+e320797258.610936
 r1
 xCompileC
 xbuild/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDoc.o
@@ -443,11 +530,16 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m320551793#320551793#0(0"0(0#0#58"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m8614196576#2034"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDoc.o0#
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m: In function '-[ScaryBugDoc initWithDocPath:]':
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m:43: warning: local declaration of 'docPath' hides instance variable
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m: At top level:
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m:141: warning: incomplete implementation of class 'ScaryBugDoc'
+o/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m:141: warning: method definition for '-initWihDocPath:' not found
+lSLF07#2@66"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m320797258#320797258#0(554"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m: In function '-[ScaryBugDoc initWithDocPath:]':/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m:43: warning: local declaration of 'docPath' hides instance variable/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m: At top level:/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m:141: warning: incomplete implementation of class 'ScaryBugDoc'/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m:141: warning: method definition for '-initWihDocPath:' not found4(22@54"Local declaration of 'docPath' hides instance variable320797258#107#127#0(6@58"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m320797092#43#0#43#0#0"0(23@13"At top level:320797258#234#74#0(6@58"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m320797092#0#0#0#0#0"0(22@48"Incomplete implementation of class 'ScaryBugDoc'320797258#308#122#0(6@58"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m320797092#141#0#141#0#38"incomplete implementation of class '*'0(22@50"Method definition for '-initWihDocPath:' not found320797258#430#124#0(6@58"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m320797092#141#0#141#0#35"method definition for '*' not found0(0#0#58"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m8624963552#2034"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugDoc.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugDoc.o0#
 
 CCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugsAppDelegate.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320775750.016522
-e320775750.207551
+s320797258.209093
+e320797258.408395
 r1
 xCompileC
 xbuild/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugsAppDelegate.o
@@ -456,7 +548,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.m320775750#320775750#0(0"0(0#0#75"/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.m8593679392#2060"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugsAppDelegate.o0#
+lSLF07#2@83"Compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.m320797258#320797258#0(0"0(0#0#75"/Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.m8593714528#2060"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -include /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/Classes/ScaryBugsAppDelegate.m -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugsAppDelegate.o0#
 
 CCompileC build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/UIImageExtras.o /Users/quinnstephens/Dropbox/Games/ScaryBugs/UIImageExtras.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s320555968.551716
@@ -507,6 +599,15 @@ r1
 xCompileXIB
 x/Users/quinnstephens/Dropbox/Games/ScaryBugs/RootViewController.xib
 lSLF07#2@33"CompileXIB RootViewController.xib320549986#320549987#0(0"0(0#0#67"/Users/quinnstephens/Dropbox/Games/ScaryBugs/RootViewController.xib8602781952#606"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/RootViewController.nib /Users/quinnstephens/Dropbox/Games/ScaryBugs/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/ScaryBugs.app/Default.png Default.png
+s320795473.625779
+e320795473.650734
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ScaryBugs.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png320795473#320795473#0(0"0(0#0#56"/Users/quinnstephens/Dropbox/Games/ScaryBugs/Default.png32651561162571872#489"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/quinnstephens/Dropbox/Games/ScaryBugs/Default.png /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app0#
 
 CCpResource build/Debug-iphonesimulator/ScaryBugs.app/centipede.jpg centipede.jpg
 s320552174.056369
@@ -617,32 +718,32 @@ xwolfSpiderThumb.jpg
 lSLF07#2@24"Copy wolfSpiderThumb.jpg320552174#320552174#0(0"0(0#0#64"/Users/quinnstephens/Dropbox/Games/ScaryBugs/wolfSpiderThumb.jpg8614886368#497"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/quinnstephens/Dropbox/Games/ScaryBugs/wolfSpiderThumb.jpg /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app0#
 
 CGenerateDSYMFile /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app.dSYM /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs
-s320789352.522389
-e320789352.546610
+s320797258.778343
+e320797258.815119
 r1
 xGenerateDSYMFile
 x/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app.dSYM
 x/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/ScaryBugs.app.dSYM build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs320789352#320789352#0(0"0(0#0#96"/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs8615248096#407"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/ScaryBugs.app.dSYM build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs320797258#320797258#0(0"0(0#0#96"/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs8622016608#407"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app.dSYM0#
 
 CLd /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs normal i386
-s320789352.472986
-e320789352.522286
+s320797258.721034
+e320797258.778246
 r1
 xLd
 x/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs
 xnormal
 xi386
-lSLF07#2@101"Link /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs320789352#320789352#0(0"0(0#0#0"8602836768#940"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -filelist /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugs.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs0#
+lSLF07#2@101"Link /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs320797258#320797258#0(0"0(0#0#0"8624360704#940"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -filelist /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/Objects-normal/i386/ScaryBugs.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/ScaryBugs0#
 
 CProcessInfoPlistFile /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/Info.plist ScaryBugs-Info.plist
-s320549986.817797
-e320549986.843649
+s320795473.594901
+e320795473.624958
 r1
 xProcessInfoPlistFile
 x/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/Info.plist
 xScaryBugs-Info.plist
-lSLF07#2@28"Process ScaryBugs-Info.plist320549986#320549986#0(0"0(0#0#65"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugs-Info.plist32932993188560964#503"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ScaryBugs-Info.plist -genpkginfo /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/Info.plist0#
+lSLF07#2@28"Process ScaryBugs-Info.plist320795473#320795473#0(0"0(0#0#65"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugs-Info.plist8612344800#503"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ScaryBugs-Info.plist -genpkginfo /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app/Info.plist0#
 
 CProcessPCH /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch.gch ScaryBugs_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s320549988.176114
@@ -658,10 +759,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@31"Precompile ScaryBugs_Prefix.pch320549988#320549989#0(0"0(0#0#65"/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugs_Prefix.pch8604481888#1904"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-generated-files.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-own-target-headers.hmap -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-all-target-headers.hmap -iquote /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/ScaryBugs-project-headers.hmap -F/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/include -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources/i386 -I/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/ScaryBugs.build/Debug-iphonesimulator/ScaryBugs.build/DerivedSources -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugs_Prefix.pch -o /var/folders/M1/M1sm5jgxEtuhmj445Khaik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ScaryBugs_Prefix-axogcpdvpavbrjfczxsjqdviuevb/ScaryBugs_Prefix.pch.gch0#
 
 CTouch /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app
-s320789352.546698
-e320789352.549302
+s320797258.815201
+e320797258.821252
 r1
 xTouch
 x/Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app
-lSLF07#2@92"Touch /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app320789352#320789352#0(0"0(0#0#0"8615071104#292"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app0#
+lSLF07#2@92"Touch /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app320797258#320797258#0(0"0(0#0#0"8620701312#292"    cd /Users/quinnstephens/Dropbox/Games/ScaryBugs    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/quinnstephens/Dropbox/Games/ScaryBugs/build/Debug-iphonesimulator/ScaryBugs.app0#
 

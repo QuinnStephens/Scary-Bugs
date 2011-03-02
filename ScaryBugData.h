@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface ScaryBugData : NSObject {
+@interface ScaryBugData : NSObject <NSCoding> {
 	NSString *_title;
 	float _rating;
 }
