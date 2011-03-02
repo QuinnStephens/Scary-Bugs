@@ -15,7 +15,7 @@
 	EditBugViewController *_editBugViewController;
 }
 
-@property(nonatomic,retain) NSMutableArray *bugs;
-@property(nonatomic,retain) EditBugViewController *editBugViewController;
+@property(retain) NSMutableArray *bugs;
+@property(retain) EditBugViewController *editBugViewController;
 
 @end

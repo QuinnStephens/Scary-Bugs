@@ -15,6 +15,8 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		7C3598F1131EDE3700A040F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3598F0131EDE3700A040F8 /* Default.png */; };
+		7C3598FE131EDFA000A040F8 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3598FD131EDFA000A040F8 /* DSActivityView.m */; };
 		7C8CEED4131B36F0006E9EB8 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CEED3131B36F0006E9EB8 /* ScaryBugData.m */; };
 		7C8CEED7131B3838006E9EB8 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CEED6131B3838006E9EB8 /* ScaryBugDoc.m */; };
 		7C8CEF0D131B3C7E006E9EB8 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C8CEF05131B3C7E006E9EB8 /* centipede.jpg */; };
@@ -48,6 +50,9 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C3598F0131EDE3700A040F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7C3598FC131EDFA000A040F8 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
+		7C3598FD131EDFA000A040F8 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
 		7C8CEED2131B36F0006E9EB8 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
 		7C8CEED3131B36F0006E9EB8 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
 		7C8CEED5131B3838006E9EB8 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
@@ -138,6 +143,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7C3598F0131EDE3700A040F8 /* Default.png */,
 				7C8CEF1D131B4273006E9EB8 /* logo1.png */,
 				7C8CEF20131B4273006E9EB8 /* shockedface2_empty.png */,
 				7C8CEF21131B4273006E9EB8 /* shockedface2_full.png */,
@@ -181,6 +187,8 @@
 		7C8CEF2B131B4286006E9EB8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7C3598FC131EDFA000A040F8 /* DSActivityView.h */,
+				7C3598FD131EDFA000A040F8 /* DSActivityView.m */,
 				7C8CEF1E131B4273006E9EB8 /* RateView.h */,
 				7C8CEF1F131B4273006E9EB8 /* RateView.m */,
 			);
@@ -261,6 +269,7 @@
 				7C8CEF28131B4273006E9EB8 /* shockedface2_full.png in Resources */,
 				7C8CEF29131B4273006E9EB8 /* shockedface2_half.png in Resources */,
 				7C8CEF31131B42F9006E9EB8 /* EditBugViewController.xib in Resources */,
+				7C3598F1131EDE3700A040F8 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +288,7 @@
 				7C8CEF26131B4273006E9EB8 /* RateView.m in Sources */,
 				7C8CEF2A131B4273006E9EB8 /* UIImageExtras.m in Sources */,
 				7C8CEF30131B42F9006E9EB8 /* EditBugViewController.m in Sources */,
+				7C3598FE131EDFA000A040F8 /* DSActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,9 +2,9 @@
 {
 	1D3623240D0F684500981E51 /* ScaryBugsAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {628, 629}}";
-			sepNavSelRange = "{176, 0}";
-			sepNavVisRange = "{0, 475}";
+			sepNavIntBoundsRect = "{{0, 0}, {628, 649}}";
+			sepNavSelRange = "{383, 0}";
+			sepNavVisRange = "{0, 453}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ScaryBugsAppDelegate.m */ = {
@@ -22,22 +22,23 @@
 	};
 	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {628, 629}}";
-			sepNavSelRange = "{280, 0}";
-			sepNavVisRange = "{0, 467}";
+			sepNavIntBoundsRect = "{{0, 0}, {628, 649}}";
+			sepNavSelRange = "{387, 0}";
+			sepNavVisRange = "{0, 447}";
 		};
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{4239, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4290, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4340, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 5167}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {908, 2340}}";
-			sepNavSelRange = "{2172, 0}";
-			sepNavVisRange = "{1816, 830}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{5100, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5151, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5201, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6028}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 2678}}";
+			sepNavSelRange = "{1876, 0}";
+			sepNavVisRange = "{1533, 1532}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 7C8CEEB7131B3446006E9EB8 /* ScaryBugs */;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* ScaryBugs */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* ScaryBugs */,
@@ -69,30 +70,235 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320773218;
-			PBXWorkspaceStateSaveDate = 320773218;
+			PBXPerProjectTemplateStateSaveDate = 320788553;
+			PBXWorkspaceStateSaveDate = 320788553;
 		};
 		perUserProjectItems = {
-			7C878CC6131EA373000E3CB2 /* PBXTextBookmark */ = 7C878CC6131EA373000E3CB2 /* PBXTextBookmark */;
-			7C878CC7131EA373000E3CB2 /* PBXTextBookmark */ = 7C878CC7131EA373000E3CB2 /* PBXTextBookmark */;
-			7C878CD6131EA3F0000E3CB2 /* PBXTextBookmark */ = 7C878CD6131EA3F0000E3CB2 /* PBXTextBookmark */;
-			7C878CEC131EA654000E3CB2 /* PBXTextBookmark */ = 7C878CEC131EA654000E3CB2 /* PBXTextBookmark */;
-			7C878CFA131EA7BB000E3CB2 /* PBXTextBookmark */ = 7C878CFA131EA7BB000E3CB2 /* PBXTextBookmark */;
-			7C878CFB131EA7BB000E3CB2 /* PBXTextBookmark */ = 7C878CFB131EA7BB000E3CB2 /* PBXTextBookmark */;
-			7C878D00131EA85F000E3CB2 /* PBXTextBookmark */ = 7C878D00131EA85F000E3CB2 /* PBXTextBookmark */;
-			7C8CEEFA131B3A90006E9EB8 /* PBXTextBookmark */ = 7C8CEEFA131B3A90006E9EB8 /* PBXTextBookmark */;
-			7C8CEEFB131B3A90006E9EB8 /* PBXTextBookmark */ = 7C8CEEFB131B3A90006E9EB8 /* PBXTextBookmark */;
-			7C8CEEFC131B3A90006E9EB8 /* PBXTextBookmark */ = 7C8CEEFC131B3A90006E9EB8 /* PBXTextBookmark */;
-			7C8CEF01131B3B71006E9EB8 /* PBXTextBookmark */ = 7C8CEF01131B3B71006E9EB8 /* PBXTextBookmark */;
-			7C8CEF3F131B4C05006E9EB8 /* PBXTextBookmark */ = 7C8CEF3F131B4C05006E9EB8 /* PBXTextBookmark */;
-			7C8CEF42131B4C05006E9EB8 /* PBXBookmark */ = 7C8CEF42131B4C05006E9EB8 /* PBXBookmark */;
-			7C8CEF43131B4C05006E9EB8 /* PBXTextBookmark */ = 7C8CEF43131B4C05006E9EB8 /* PBXTextBookmark */;
-			7C8CEF44131B4C05006E9EB8 /* PBXTextBookmark */ = 7C8CEF44131B4C05006E9EB8 /* PBXTextBookmark */;
-			7C8CEF45131B4C05006E9EB8 /* PBXTextBookmark */ = 7C8CEF45131B4C05006E9EB8 /* PBXTextBookmark */;
+			7C3598D8131ED84A00A040F8 /* PBXTextBookmark */ = 7C3598D8131ED84A00A040F8 /* PBXTextBookmark */;
+			7C359901131EE22700A040F8 /* XCBuildMessageTextBookmark */ = 7C359901131EE22700A040F8 /* XCBuildMessageTextBookmark */;
+			7C359902131EE22700A040F8 /* PBXTextBookmark */ = 7C359902131EE22700A040F8 /* PBXTextBookmark */;
+			7C359905131EE24100A040F8 /* XCBuildMessageTextBookmark */ = 7C359905131EE24100A040F8 /* XCBuildMessageTextBookmark */;
+			7C359906131EE24100A040F8 /* PBXTextBookmark */ = 7C359906131EE24100A040F8 /* PBXTextBookmark */;
+			7C35990C131EE54900A040F8 /* PlistBookmark */ = 7C35990C131EE54900A040F8 /* PlistBookmark */;
+			7C35990D131EE54900A040F8 /* PBXBookmark */ = 7C35990D131EE54900A040F8 /* PBXBookmark */;
+			7C35990E131EE54900A040F8 /* PBXBookmark */ = 7C35990E131EE54900A040F8 /* PBXBookmark */;
+			7C35990F131EE54900A040F8 /* PBXTextBookmark */ = 7C35990F131EE54900A040F8 /* PBXTextBookmark */;
+			7C359910131EE54900A040F8 /* PBXTextBookmark */ = 7C359910131EE54900A040F8 /* PBXTextBookmark */;
+			7C359911131EE54900A040F8 /* PBXTextBookmark */ = 7C359911131EE54900A040F8 /* PBXTextBookmark */;
+			7C359912131EE54900A040F8 /* PBXTextBookmark */ = 7C359912131EE54900A040F8 /* PBXTextBookmark */;
+			7C359913131EE54900A040F8 /* PBXTextBookmark */ = 7C359913131EE54900A040F8 /* PBXTextBookmark */;
+			7C359914131EE54900A040F8 /* PBXTextBookmark */ = 7C359914131EE54900A040F8 /* PBXTextBookmark */;
+			7C359915131EE54900A040F8 /* PBXTextBookmark */ = 7C359915131EE54900A040F8 /* PBXTextBookmark */;
+			7C359916131EE54900A040F8 /* PBXTextBookmark */ = 7C359916131EE54900A040F8 /* PBXTextBookmark */;
+			7C359917131EE54900A040F8 /* PBXTextBookmark */ = 7C359917131EE54900A040F8 /* PBXTextBookmark */;
+			7C359918131EE54900A040F8 /* PBXTextBookmark */ = 7C359918131EE54900A040F8 /* PBXTextBookmark */;
+			7C878CC6131EA373000E3CB2 = 7C878CC6131EA373000E3CB2 /* PBXTextBookmark */;
+			7C878CC7131EA373000E3CB2 = 7C878CC7131EA373000E3CB2 /* PBXTextBookmark */;
+			7C878CD6131EA3F0000E3CB2 = 7C878CD6131EA3F0000E3CB2 /* PBXTextBookmark */;
+			7C878CEC131EA654000E3CB2 = 7C878CEC131EA654000E3CB2 /* PBXTextBookmark */;
+			7C878CFA131EA7BB000E3CB2 = 7C878CFA131EA7BB000E3CB2 /* PBXTextBookmark */;
+			7C878CFB131EA7BB000E3CB2 = 7C878CFB131EA7BB000E3CB2 /* PBXTextBookmark */;
+			7C878D00131EA85F000E3CB2 = 7C878D00131EA85F000E3CB2 /* PBXTextBookmark */;
+			7C8CEEFA131B3A90006E9EB8 = 7C8CEEFA131B3A90006E9EB8 /* PBXTextBookmark */;
+			7C8CEEFB131B3A90006E9EB8 = 7C8CEEFB131B3A90006E9EB8 /* PBXTextBookmark */;
+			7C8CEEFC131B3A90006E9EB8 = 7C8CEEFC131B3A90006E9EB8 /* PBXTextBookmark */;
+			7C8CEF01131B3B71006E9EB8 = 7C8CEF01131B3B71006E9EB8 /* PBXTextBookmark */;
+			7C8CEF3F131B4C05006E9EB8 = 7C8CEF3F131B4C05006E9EB8 /* PBXTextBookmark */;
+			7C8CEF42131B4C05006E9EB8 = 7C8CEF42131B4C05006E9EB8 /* PBXBookmark */;
+			7C8CEF43131B4C05006E9EB8 = 7C8CEF43131B4C05006E9EB8 /* PBXTextBookmark */;
+			7C8CEF44131B4C05006E9EB8 = 7C8CEF44131B4C05006E9EB8 /* PBXTextBookmark */;
+			7C8CEF45131B4C05006E9EB8 = 7C8CEF45131B4C05006E9EB8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7C8CEECC131B3453006E9EB8 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	7C3598D8131ED84A00A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */;
+		name = "EditBugViewController.m: 107";
+		rLen = 0;
+		rLoc = 3977;
+		rType = 0;
+		vrLen = 1508;
+		vrLoc = 0;
+	};
+	7C3598F0131EDE3700A040F8 /* Default.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
+		};
+	};
+	7C3598FC131EDFA000A040F8 /* DSActivityView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2084, 1911}}";
+			sepNavSelRange = "{486, 0}";
+			sepNavVisRange = "{0, 2045}";
+		};
+	};
+	7C3598FD131EDFA000A040F8 /* DSActivityView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2042, 10309}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1757}";
+		};
+	};
+	7C359901131EE22700A040F8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Stray '@' in program";
+		fRef = 7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 12;
+		rType = 1;
+	};
+	7C359902131EE22700A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */;
+		name = "EditBugViewController.m: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 530;
+		vrLoc = 0;
+	};
+	7C359905131EE24100A040F8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ']' before '[' token";
+		fRef = 7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 116;
+		rType = 1;
+	};
+	7C359906131EE24100A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */;
+		name = "EditBugViewController.m: 117";
+		rLen = 0;
+		rLoc = 3750;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 3319;
+	};
+	7C35990C131EE54900A040F8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ScaryBugs-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/quinnstephens/Dropbox/Games/ScaryBugs/ScaryBugs-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	7C35990D131EE54900A040F8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7C8CEF1D131B4273006E9EB8 /* logo1.png */;
+	};
+	7C35990E131EE54900A040F8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7C3598F0131EDE3700A040F8 /* Default.png */;
+	};
+	7C35990F131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 75";
+		rLen = 0;
+		rLoc = 1876;
+		rType = 0;
+		vrLen = 1532;
+		vrLoc = 1533;
+	};
+	7C359910131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C8CEF23131B4273006E9EB8 /* UIImageExtras.h */;
+		name = "UIImageExtras.h: 15";
+		rLen = 0;
+		rLoc = 276;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	7C359911131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C3598FC131EDFA000A040F8 /* DSActivityView.h */;
+		name = "DSActivityView.h: 13";
+		rLen = 0;
+		rLoc = 486;
+		rType = 0;
+		vrLen = 2045;
+		vrLoc = 0;
+	};
+	7C359912131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C3598FD131EDFA000A040F8 /* DSActivityView.m */;
+		name = "DSActivityView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1757;
+		vrLoc = 0;
+	};
+	7C359913131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C8CEF2D131B42F9006E9EB8 /* EditBugViewController.h */;
+		name = "EditBugViewController.h: 27";
+		rLen = 0;
+		rLoc = 694;
+		rType = 0;
+		vrLen = 1016;
+		vrLoc = 0;
+	};
+	7C359914131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ScaryBugsAppDelegate.h */;
+		name = "ScaryBugsAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 383;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 0;
+	};
+	7C359915131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C8CEED2131B36F0006E9EB8 /* ScaryBugData.h */;
+		name = "ScaryBugData.h: 17";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	7C359916131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 19";
+		rLen = 0;
+		rLoc = 387;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	7C359917131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */;
+		name = "EditBugViewController.m: 111";
+		rLen = 0;
+		rLoc = 3324;
+		rType = 0;
+		vrLen = 1536;
+		vrLoc = 2951;
+	};
+	7C359918131EE54900A040F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */;
+		name = "EditBugViewController.m: 91";
+		rLen = 0;
+		rLoc = 2702;
+		rType = 0;
+		vrLen = 1882;
+		vrLoc = 2307;
 	};
 	7C878CC6131EA373000E3CB2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -119,7 +325,7 @@
 		fRef = 7C8CEF2D131B42F9006E9EB8 /* EditBugViewController.h */;
 		name = "EditBugViewController.h: 29";
 		rLen = 0;
-		rLoc = 829;
+		rLoc = 969;
 		rType = 0;
 		vrLen = 876;
 		vrLoc = 0;
@@ -139,7 +345,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: 160";
 		rLen = 0;
-		rLoc = 4640;
+		rLoc = 5501;
 		rType = 0;
 		vrLen = 1450;
 		vrLoc = 3717;
@@ -149,7 +355,7 @@
 		fRef = 7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */;
 		name = "EditBugViewController.m: 113";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 4163;
 		rType = 0;
 		vrLen = 1244;
 		vrLoc = 2558;
@@ -159,7 +365,7 @@
 		fRef = 7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */;
 		name = "EditBugViewController.m: 107";
 		rLen = 0;
-		rLoc = 3156;
+		rLoc = 3977;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 0;
@@ -188,6 +394,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = ScaryBugs;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -208,8 +416,8 @@
 	};
 	7C8CEED2131B36F0006E9EB8 /* ScaryBugData.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {622, 675}}";
-			sepNavSelRange = "{357, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {628, 649}}";
+			sepNavSelRange = "{275, 0}";
 			sepNavVisRange = "{0, 398}";
 		};
 	};
@@ -291,7 +499,7 @@
 	};
 	7C8CEF23131B4273006E9EB8 /* UIImageExtras.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {628, 667}}";
+			sepNavIntBoundsRect = "{{0, 0}, {628, 649}}";
 			sepNavSelRange = "{276, 0}";
 			sepNavVisRange = "{0, 278}";
 		};
@@ -305,16 +513,16 @@
 	};
 	7C8CEF2D131B42F9006E9EB8 /* EditBugViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1118, 629}}";
-			sepNavSelRange = "{829, 0}";
-			sepNavVisRange = "{0, 876}";
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 649}}";
+			sepNavSelRange = "{694, 0}";
+			sepNavVisRange = "{0, 1016}";
 		};
 	};
 	7C8CEF2E131B42F9006E9EB8 /* EditBugViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 1833}}";
-			sepNavSelRange = "{3156, 0}";
-			sepNavVisRange = "{0, 1414}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1950}}";
+			sepNavSelRange = "{2702, 0}";
+			sepNavVisRange = "{2307, 1882}";
 		};
 	};
 	7C8CEF3F131B4C05006E9EB8 /* PBXTextBookmark */ = {

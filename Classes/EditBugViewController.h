@@ -10,7 +10,7 @@
 #import "RateView.h"
 
 @class ScaryBugDoc;
-
+@class DSActivityView;
 
 @interface EditBugViewController : UIViewController <UITextFieldDelegate, RateViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate> {
 	ScaryBugDoc *_bugDoc;
@@ -18,13 +18,17 @@
 	UIImageView *_imageView;
 	RateView *_rateView;
 	UIImagePickerController *_picker;
+	DSActivityView *activityView;
+	NSOperationQueue *queue;
 }
 
-@property(nonatomic,retain)ScaryBugDoc *bugDoc;
-@property(nonatomic,retain)IBOutlet UITextField *titleField;
-@property(nonatomic,retain)IBOutlet UIImageView *imageView;
+@property(retain)ScaryBugDoc *bugDoc;
+@property(retain)IBOutlet UITextField *titleField;
+@property(retain)IBOutlet UIImageView *imageView;
 @property(retain) IBOutlet RateView *rateView;
 @property(retain) UIImagePickerController *picker;
+@property(retain) DSActivityView *activityView;
+@property(retain) NSOperationQueue *queue;
 
 -(IBAction)titleFieldValueChanged:(id)sender;
 -(IBAction)addPictureTapped:(id)sender;

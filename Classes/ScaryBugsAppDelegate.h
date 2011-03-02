@@ -14,8 +14,8 @@
     UINavigationController *navigationController;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property (retain) IBOutlet UIWindow *window;
+@property (retain) IBOutlet UINavigationController *navigationController;
 
 @end
 

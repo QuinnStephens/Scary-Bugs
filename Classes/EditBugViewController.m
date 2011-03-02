@@ -10,6 +10,7 @@
 #import "ScaryBugData.h"
 #import "ScaryBugDoc.h"
 #import "UIImageExtras.h"
+#import "DSActivityView.h"
 
 @implementation EditBugViewController
 
@@ -18,6 +19,7 @@
 @synthesize imageView = _imageView;
 @synthesize picker = _picker;
 @synthesize rateView = _rateView;
+@synthesize activityView, queue;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -41,6 +43,8 @@
 	_rateView.editable = YES;
 	_rateView.maxRating = 5;
 	_rateView.delegate = self;
+	
+	self.queue = [[[NSOperationQueue alloc] init] autorelease];
 	
 }
 
@@ -80,12 +84,21 @@
 
 -(IBAction)addPictureTapped:(id)sender{
 	if(_picker == nil){
-		self.picker = [[UIImagePickerController alloc] init];
-		_picker.delegate = self;
-		_picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-		_picker.allowsEditing = NO;
+		[DSBezelActivityView newActivityViewForView:self.navigationController.navigationBar.superview withLabel:@"Loading Image Picker..." width:160];
+		[queue addOperationWithBlock:^{
+			self.picker = [[UIImagePickerController alloc] init];
+			_picker.delegate = self;
+			_picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+			_picker.allowsEditing = NO;	
+			[[NSOperationQueue mainQueue] addOperationWithBlock:^{
+				[DSBezelActivityView removeViewAnimated:YES];
+				[self.navigationController presentModalViewController:_picker animated:YES];
+			}];
+		}];
+		
+	} else {
+		[self.navigationController presentModalViewController:_picker animated:YES];
 	}
-	[self.navigationController presentModalViewController:_picker animated:YES];
 }
 
 #pragma mark UIImagePickerControllerDelegate
@@ -97,11 +110,17 @@
 -(void)imagePickerController:(UIImagePickerController*)picker didFinishPickingMediaWithInfo:(NSDictionary*)info{
 	[self dismissModalViewControllerAnimated:YES];
 	
-	UIImage *fullImage = (UIImage*)[info objectForKey:UIImagePickerControllerOriginalImage];
-	UIImage *thumbImage = [fullImage imageByScalingAndCroppingForSize:CGSizeMake(44,44)];
-	_bugDoc.fullImage = fullImage;
-	_bugDoc.thumbImage = thumbImage;
-	_imageView.image = fullImage;
+	[DSBezelActivityView newActivityViewForView:self.navigationController.navigationBar.superview withLabel:@"Resizing image..." width:160];
+	[queue addOperationWithBlock:^{
+		UIImage *fullImage = (UIImage*)[info objectForKey:UIImagePickerControllerOriginalImage];
+		UIImage *thumbImage = [fullImage imageByScalingAndCroppingForSize:CGSizeMake(44,44)];
+		[[NSOperationQueue mainQueue] addOperationWithBlock: ^{
+			_bugDoc.fullImage = fullImage;
+			_bugDoc.thumbImage = thumbImage;
+			_imageView.image = fullImage;
+			[DSBezelActivityView removeViewAnimated:YES];
+		}];	
+	}];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -119,6 +138,7 @@
 	self.titleField = nil;
 	self.imageView = nil;
 	self.rateView = nil;
+	self.queue = nil;
 }
 
 
@@ -133,6 +153,8 @@
 	_rateView = nil;
 	[_picker release];
 	_picker = nil;
+	[queue release];
+	queue = nil;
     [super dealloc];
 }
 
