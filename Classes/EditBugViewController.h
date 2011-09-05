@@ -4,7 +4,7 @@
 //
 //  Created by Quinn Stephens on 2/27/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+// This is way the world ends!
 
 #import <UIKit/UIKit.h>
 #import "RateView.h"
